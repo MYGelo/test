@@ -1,0 +1,77 @@
+<style>
+  .active {
+    /* visibility: visible; */
+    color: red;
+  }
+
+  .first_bg {
+    background-color: red;
+  }
+  .second_bg {
+    background-color: aqua;
+  }
+  .third_br {
+    background-color: blueviolet;
+  }
+</style>
+
+<ul id="ul" class="ul">
+  <li>
+    <p class="item active" id="1" data-state="01">AzureDevOps</p>
+  </li>
+
+  <li>
+    <p class="item" id="2" data-state="02">monday.com</p>
+  </li>
+
+  <li>
+    <p class="item" id="3" data-state="03">Github</p>
+  </li>
+</ul>
+
+<p class="text"></p>
+<a class="btn" href="#">Get Started</a>
+
+<script>
+  const states = document.querySelectorAll('.item');
+  const one = document.getElementById('1');
+  const two = document.getElementById('2');
+  const three = document.getElementById('3');
+
+  const text = document.querySelector('.text');
+  const textBoxOne = `Time tracking that’s built for development teams, by developers. <br/>Try our leading solution for Azure DevOps and Azure Boards.`;
+  const textBoxTwoo = `Seamless, professional time tracking for monday.com teams who need to track time,optimize planning, report on projects, and more.`;
+  const textBoxThree = `Developer timekeeping built for teams using GitHub. Currently available in beta.`;
+
+  const hover = (element, onClick) => {
+    element.addEventListener('click', onClick);
+  };
+
+  text.innerHTML = textBoxOne;
+
+  for (let i = 0; i < states.length; i++) {
+    hover(states[i], e => {
+      if (states[i].id == 1) {
+        one.classList.add('active');
+        two.classList.remove('active');
+        three.classList.remove('active');
+
+        text.innerHTML = textBoxOne;
+      }
+      if (states[i].id == 2) {
+        one.classList.remove('active');
+        two.classList.add('active');
+        three.classList.remove('active');
+
+        text.innerHTML = textBoxTwoo;
+      }
+      if (states[i].id == 3) {
+        one.classList.remove('active');
+        two.classList.remove('active');
+        three.classList.add('active');
+
+        text.innerHTML = textBoxThree;
+      }
+    });
+  }
+</script>

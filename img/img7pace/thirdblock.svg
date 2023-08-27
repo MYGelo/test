@@ -1,0 +1,24 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1600 910" style="enable-background:new 0 0 1600 910;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000042709562561579408080000010889373762316939674_);}
+	.st1{fill:url(#SVGID_00000101078156732545857120000010435386145542841003_);}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" y="0" width="1600" height="910"/>
+	</defs>
+	<clipPath id="SVGID_00000098902527661182321800000005278373941773977523_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_00000098902527661182321800000005278373941773977523_);">
+		
+			<linearGradient id="SVGID_00000027582372116691704410000005699536109411944846_" gradientUnits="userSpaceOnUse" x1="3172.0276" y1="128.6492" x2="-1584.3828" y2="778.9565" gradientTransform="matrix(1 0 0 -1 -1 907.8898)">
+			<stop  offset="0" style="stop-color:#008F76"/>
+			<stop  offset="0.526" style="stop-color:#0A2456"/>
+			<stop  offset="1" style="stop-color:#1959E3"/>
+		</linearGradient>
+		<rect x="-1" y="0" style="fill:url(#SVGID_00000027582372116691704410000005699536109411944846_);" width="1601" height="910"/>
+	</g>
+</g>
+</svg>

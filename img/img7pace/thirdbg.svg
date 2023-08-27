@@ -1,0 +1,40 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1600 910" style="enable-background:new 0 0 1600 910;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000168837401781970508390000000037220815324327298_);}
+	.st1{fill:url(#SVGID_00000067203249550814477960000007512638323316237998_);}
+	.st2{opacity:0.4;fill-rule:evenodd;clip-rule:evenodd;fill:#2E3645;enable-background:new    ;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_00000147190992836405529740000002230463849506337971_);}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" y="0" width="1600" height="910"/>
+	</defs>
+	<clipPath id="SVGID_00000034811535642657032430000013804928367835087032_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_00000034811535642657032430000013804928367835087032_);">
+		
+			<linearGradient id="SVGID_00000136391405944236687930000013587974303886655668_" gradientUnits="userSpaceOnUse" x1="457.7734" y1="411.7766" x2="599.5665" y2="-55.1344" gradientTransform="matrix(1 0 0 -1 0 907.8898)">
+			<stop  offset="0" style="stop-color:#0094FF;stop-opacity:0"/>
+			<stop  offset="1" style="stop-color:#1952E6"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_00000136391405944236687930000013587974303886655668_);" d="M434.339,476.009
+			c-8.227,0-18.229,5.781-22.343,12.912L290.762,699.089c-4.113,7.131-0.779,12.912,7.447,12.911l242.452-0.009
+			c8.226-0.001,18.23-5.781,22.343-12.912l121.234-210.168c4.113-7.131,0.779-12.912-7.447-12.911L434.339,476.009z"/>
+		<path class="st2" d="M666.397,477.547H677.1c8.233-0.001,11.569,5.779,7.453,12.908L563.222,700.588
+			c-4.117,7.13-14.128,12.909-22.36,12.91l-242.646,0.009c-8.233,0-11.569-5.779-7.453-12.909l5.378-9.313l231.943-0.009
+			c8.233,0,18.244-5.78,22.361-12.91L666.397,477.547z"/>
+		
+			<linearGradient id="SVGID_00000060016423437739250180000003473250804189008021_" gradientUnits="userSpaceOnUse" x1="948.828" y1="501.9541" x2="1306.8771" y2="-406.715" gradientTransform="matrix(1 0 0 -1 0 907.8898)">
+			<stop  offset="0" style="stop-color:#497CFF;stop-opacity:0"/>
+			<stop  offset="1" style="stop-color:#497CFF"/>
+		</linearGradient>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_00000060016423437739250180000003473250804189008021_);" d="
+			M286.184,229.289c10.608-18.372,36.403-33.265,57.618-33.266l114.529-0.002L159.544,713.49
+			c-10.608,18.371-2.01,33.264,19.204,33.262l625.24-0.023c21.213-0.001,47.01-14.894,57.617-33.266l298.775-517.452l818.66-0.012
+			c21.22-0.001,29.81,14.892,19.21,33.263l-312.64,541.461c-10.61,18.372-36.41,33.265-57.62,33.266L-7.252,804.012
+			c-21.214,0.002-29.812-14.891-19.204-33.262L286.184,229.289z"/>
+	</g>
+</g>
+</svg>
