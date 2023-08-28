@@ -9,7 +9,7 @@ body {
 .template_with_blocks_section .bg_first {
   background: url('../img/img7pace/firstblock.svg');
 
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
@@ -18,19 +18,20 @@ body {
 }
 .template_with_blocks_section .svg_first {
   background: url('../img/img7pace/firstbg.svg');
-  background-size: contain;
+
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
   animation-direction: alternate-reverse;
-  transition: 0.5s ease;
+  transition: 1s ease;
 } 
 
 /* ============== monday bg ================== */
 .template_with_blocks_section .bg_second {
   background: url('../img/img7pace/secondBlock.svg');
 
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
@@ -40,18 +41,18 @@ body {
 
 .template_with_blocks_section .svg_second {
   background: url('../img/img7pace/second_bg.svg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
   animation-direction: alternate-reverse;
-  transition: 0.5s ease;
+  transition: 1s ease;
 } 
 /* =====================git hub bg ============================ */
 .template_with_blocks_section .bg_third {
   background: url('../img/img7pace/thirdblock.svg');
 
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
@@ -60,12 +61,12 @@ body {
 }
 .template_with_blocks_section .svg_third {
   background: url('../img/img7pace/thirdbg.svg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
   animation-direction: alternate-reverse;
-  transition: 0.5s ease;
+  transition: 1s ease;
 } 
 /* ///////////////////// */
 
