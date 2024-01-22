@@ -8,111 +8,24 @@
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <section class="template_with_blocks_section">
-      <div class="section_bg">
-        <div class="svg_bg">
-          <div class="container" style="padding: 100px 0 100px 0">
-            <div class="wrapper">
-              <h2 class="title">Platforms</h2>
-              <div>
-                <ul class="links">
-                  <li><p class="item active" id="1" data-state="01">AzureDevOps</p></li>
-                  <li><p class="item" id="2" data-state="02">monday.com</p></li>
-                  <li><p class="item" id="3" data-state="03">Github</p></li>
-                </ul>
-                <p class="text"></p>
-                <a class="btn" href="#">Get Started</a>
-              </div>
+    <header>
+      <ul class="nav_links">
+        <li class="link">
+          <a href="index.html"><p>Home</p></a>
+        </li>
 
-              <div style="width: 555px; height: 555px">
-                <img style="background-color: aqua" src="" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <script>
-        const textBoxOne = `Time tracking that’s built for development teams, by developers.Try our leading solution for Azure DevOps and Azure Boards.`;
-        // const textBoxOne = `Time tracking that’s built for development teams, by developers. <br/>Try our leading solution for Azure DevOps and Azure Boards.`;
-        const textBoxTwoo = `Seamless, professional time tracking for monday.com teams who need to track time,optimize planning, report on projects, and more.`;
-        const textBoxThree = `Developer timekeeping built for teams using GitHub. Currently available in beta.`;
+        <li class="link">
+          <a href="map.html"><p>map</p></a>
+        </li>
 
-        const states = document.querySelectorAll('.item');
-        const one = document.getElementById('1');
-        const two = document.getElementById('2');
-        const three = document.getElementById('3');
+        <li class="link">
+          <a href="sviper.html"><p>swiper</p></a>
+        </li>
 
-        const sectionBg = document.querySelector('.section_bg');
-        const sectionSvg = document.querySelector('.svg_bg');
-
-        const text = document.querySelector('.text');
-
-        const hover = (element, onClick) => {
-          element.addEventListener('click', onClick);
-        };
-
-        text.innerHTML = textBoxOne;
-        sectionBg.classList.add('bg_first');
-        sectionSvg.classList.add('svg_first');
-
-        for (let i = 0; i < states.length; i++) {
-          hover(states[i], e => {
-            switch (states[i].id) {
-              case '1':
-                one.classList.add('active');
-                two.classList.remove('active');
-                three.classList.remove('active');
-
-                sectionBg.classList.add('bg_first');
-                sectionBg.classList.remove('bg_second');
-                sectionBg.classList.remove('bg_third');
-
-                sectionSvg.classList.add('svg_first');
-                sectionSvg.classList.remove('svg_second');
-                sectionSvg.classList.remove('svg_third');
-
-                text.innerHTML = textBoxOne;
-                break;
-              case '2':
-                one.classList.remove('active');
-                two.classList.add('active');
-                three.classList.remove('active');
-
-                sectionBg.classList.remove('bg_first');
-                sectionBg.classList.add('bg_second');
-                sectionBg.classList.remove('bg_third');
-
-                sectionSvg.classList.remove('svg_first');
-                sectionSvg.classList.add('svg_second');
-                sectionSvg.classList.remove('svg_third');
-
-                text.innerHTML = textBoxTwoo;
-                break;
-
-              case '3':
-                one.classList.remove('active');
-                two.classList.remove('active');
-                three.classList.add('active');
-
-                sectionBg.classList.remove('bg_first');
-                sectionBg.classList.remove('bg_second');
-                sectionBg.classList.add('bg_third');
-
-                sectionSvg.classList.remove('svg_first');
-                sectionSvg.classList.remove('svg_second');
-                sectionSvg.classList.add('svg_third');
-
-                text.innerHTML = textBoxThree;
-
-              default:
-                text.innerHTML = textBoxOne;
-                sectionBg.classList.add('bg_first');
-                sectionSvg.classList.add('svg_first');
-                break;
-            }
-          });
-        }
-      </script>
-    </section>
+        <li class="link">
+          <a href="./form/form.html"><p>form</p></a>
+        </li>
+      </ul>
+    </header>
   </body>
 </html>
